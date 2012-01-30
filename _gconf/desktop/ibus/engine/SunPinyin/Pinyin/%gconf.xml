@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="ShuangPinType" mtime="1327906881" type="int" value="0"/>
+	<entry name="Scheme" mtime="1327906881" type="string">
+		<stringvalue>ShuangPin</stringvalue>
+	</entry>
+</gconf>

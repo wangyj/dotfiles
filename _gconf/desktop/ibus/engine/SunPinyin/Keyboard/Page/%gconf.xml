@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="CommaPeriod" mtime="1327906881" type="bool" value="true"/>
+	<entry name="Brackets" mtime="1327906881" type="bool" value="false"/>
+	<entry name="MinusEquals" mtime="1327906881" type="bool" value="false"/>
+</gconf>

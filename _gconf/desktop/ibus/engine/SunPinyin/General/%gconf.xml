@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="Charset" mtime="1327906881" type="string">
+		<stringvalue>GBK</stringvalue>
+	</entry>
+	<entry name="PageSize" mtime="1327906881" type="int" value="5"/>
+	<entry name="MemoryPower" mtime="1327906881" type="int" value="3"/>
+</gconf>
