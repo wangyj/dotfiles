@@ -120,6 +120,7 @@ if has("gui_running")
   let psc_style='cool'
   colorscheme peaksea
   set nu
+  set guifont=YaHei\ Consolas\ Hybrid\ 12
 else
   colorscheme zellner
   set nu
