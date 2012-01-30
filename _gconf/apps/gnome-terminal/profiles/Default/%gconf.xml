@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="scrollbar_position" mtime="1327901778" type="string">
+		<stringvalue>hidden</stringvalue>
+	</entry>
+	<entry name="use_theme_colors" mtime="1327901739" type="bool" value="false"/>
+	<entry name="silent_bell" mtime="1327901732" type="bool" value="true"/>
+	<entry name="default_show_menubar" mtime="1327901729" type="bool" value="false"/>
+	<entry name="allow_bold" mtime="1327901731" type="bool" value="true"/>
+	<entry name="palette" mtime="1327901770" type="string">
+		<stringvalue>#000000000000:#CDCB00000000:#0000CDCB0000:#CDCBCDCB0000:#1E1A908FFFFF:#CDCB0000CDCB:#0000CDCBCDCB:#E5E2E5E2E5E2:#4CCC4CCC4CCC:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#46458281B4AE:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1327901748" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1327900750" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1327900750" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1327901748" type="string">
+		<stringvalue>#AAAAAAAAAAAA</stringvalue>
+	</entry>
+</gconf>

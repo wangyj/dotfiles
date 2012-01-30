@@ -3,12 +3,11 @@ function link_file {
     source="${PWD}/$1"
     target="${HOME}/${1/_/.}"
 
-    if [ -f "${target}" ]; then
-        mv $target bak/$target
+    if [ -e "${target}" ]; then
+        rm $target.bak
+        mv $target $target.bak
     fi
 
-        echo $source
-        echo $target
     ln -sf ${source} ${target}
 }
 
@@ -20,7 +19,6 @@ if [ "$1" = "vim" ]; then
 else
     for i in _*
     do
-        echo $i
         link_file $i
     done
 fi
