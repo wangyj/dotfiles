@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="titlebar_font" mtime="1327907762" type="string">
+		<stringvalue>Microsoft YaHei Bold 11</stringvalue>
+	</entry>
 	<entry name="num_workspaces" mtime="1327900750" type="int" value="2"/>
 </gconf>
