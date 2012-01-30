@@ -1,0 +1,11 @@
+# Incremental searching with Up and Down
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Old behaviour still available with Ctrl+P and Ctrl+N
+"\e[C": forward-char
+"\e[D": backward-char
+
+$if Bash
+  Space: magic-space
+$endif

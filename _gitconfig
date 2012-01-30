@@ -18,7 +18,7 @@
     ci = commit
     br = branch
     co = checkout
-    df = diff
+    df = difftool
     lg = log -p
     up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
@@ -26,3 +26,7 @@
     ls = ls-files
 	last = cat-file commit HEAD
 
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
