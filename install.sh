@@ -21,14 +21,12 @@ function link_dir_file {
         fi
         ln -sf ${source} ${target}
     fi
-    return
 }
 
 for i in @*
 do
     link_dir_file $i
 done
-exit
 
 # 
 function link_file {
