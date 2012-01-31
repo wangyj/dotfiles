@@ -77,3 +77,5 @@ alias pacsearch='pacman -Ss'
 # alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep " #lets you search through all available packages simply using 'pacsearch packagename'
 alias pacup="sudo pacman -Syu" 
 alias pac='sudo pacman -S' # sudo pacman -S by typing pac 
+
+alias vi='vim'
