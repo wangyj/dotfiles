@@ -22,7 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 export JAVA_HOME=/opt/java
-export PATH=$JAVA_HOME/jre/bin:$JAVA_HOME/bin:$PATH
+export PATH="$JAVA_HOME/jre/bin:$JAVA_HOME/bin:$PATH"
 
 # startup ibus daemon
 ibus-daemon -d -x
