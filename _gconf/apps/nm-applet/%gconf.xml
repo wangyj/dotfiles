@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="disable-connected-notifications" mtime="1329733374" type="bool" value="true"/>
 	<entry name="stamp" mtime="1327887299" type="int" value="3"/>
 </gconf>

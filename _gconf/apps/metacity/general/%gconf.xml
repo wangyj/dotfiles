@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="visual_bell_type" mtime="1328692012" type="string">
+		<stringvalue>fullscreen</stringvalue>
+	</entry>
+	<entry name="visual_bell" mtime="1328692014" type="bool" value="false"/>
 	<entry name="titlebar_font" mtime="1327907762" type="string">
 		<stringvalue>Microsoft YaHei Bold 11</stringvalue>
 	</entry>
