@@ -75,7 +75,7 @@ alias kk='ll'
 alias pacman='pacman-color'
 alias pacsearch='pacman-color -Ss'
 # alias pacsearch="pacman -Sl | cut -d' ' -f2 | grep " #lets you search through all available packages simply using 'pacsearch packagename'
-alias pacup="sudo pacman -Syu" 
+alias pacup="sudo pacman-color -Syu" 
 alias pac='sudo pacman-color -S' # sudo pacman -S by typing pac 
 
 alias vi='vim'
@@ -90,3 +90,6 @@ alias ashell='adb shell'
 alias agrep='adb shell ps | grep'
 alias akill='adb shell kill'
 alias alog='adb logcat'
+
+alias trash='trash-put'
+alias d='trash'
