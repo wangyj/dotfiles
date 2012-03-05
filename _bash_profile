@@ -2,4 +2,8 @@
 # ~/.bash_profile
 #
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+# include .bashrc if it exists
+if [ -f "$HOME/.profile" ]; then
+    . "$HOME/.profile"
+fi
+# [[ -f ~/.bashrc ]] && . ~/.bashrc
