@@ -22,7 +22,9 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 export JAVA_HOME=/opt/java
-export PATH="$JAVA_HOME/jre/bin:$JAVA_HOME/bin:$PATH"
+export ANDROID_HOME=$HOME/adt-bundle/sdk
+export ECLIPSE_HOME=$HOME/eclipse
+export PATH="$JAVA_HOME/jre/bin:$JAVA_HOME/bin:$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools:$ANDROID_HOME/tools"
 
 # startup ibus daemon
 export GTK_IM_MODULE=ibus
