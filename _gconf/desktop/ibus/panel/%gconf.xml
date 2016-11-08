@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="show_icon_on_systray" mtime="1327906844" type="bool" value="true"/>
-	<entry name="lookup_table_orientation" mtime="1327906841" type="int" value="0"/>
-	<entry name="custom_font" mtime="1327906838" type="string">
-		<stringvalue>Sans 10</stringvalue>
-	</entry>
-</gconf>
